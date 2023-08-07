@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    background: #8A51FC;
+}
+
+.box-image-animation {
+    width: 18.75rem;
+    height: 18.75rem;
+    display: block;
+    margin: 15px auto;
+}
+
+.box-image-animation img {
+    width: 100%;
+}
+
