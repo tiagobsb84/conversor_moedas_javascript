@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conversor de Moedas</title>
 </head>
 <body>
-    
+    <div class="box-image-animation">
+        <img src="./assets/img/logo.gif" alt="imagem de conversão">
+    </div>
+
+    <main class="content-convertion-currency">
+        <section class="section-convertion-currency">
+            <div class="box-convertion-real">
+                <label for="convertion-to-real" class="label-convertion-real">Converter <span>de</span></label>
+                <input type="text" class="input-convertion-real" id="convertion-to-real" placeholder="R$ Real brasileiro" disabled>
+            </div>
+            <div class="box-selection-convertion">
+                <label for="select-currencys" class="label-selection-convertion">Converter <span>para</span></label>
+                <select class="select-currency" name="currency" id="select-currencys">
+                    <option value="dolar">US$ Dólar americano</option>
+                    <option value="euro">€ Euro</option>
+                </select>
+            </div>
+            <div>
+                <label for="input-valor" class="label-value">Valor</label>
+                <input type="text" class="input-value" id="input-valor" placeholder="R$ 10.000,00">
+            </div>
+            <button class="button-convertion">Converter</button>
+        </section>
+        <section class="section-result-convertion">
+            <div class="box-result-first-value">
+                <img src="./assets/img/brasil.png" alt="imagem da bandeira Brasil" class="first-img-value">
+                <p>Real</p>
+                <p class="first-value">0.0</p>
+            </div>
+            <img src="./assets/img/arrow.png" alt="Image seta para baixo" class="image-arrow-down">
+            <div class="box-result-second-value">
+                <img src="./assets/img/estados-unidos.png" alt="Imagem da bandeira EUA" class="second-image-value">
+                <p class="description-currency">Dólar Americano</p>
+                <p class="second-value">0.0</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
