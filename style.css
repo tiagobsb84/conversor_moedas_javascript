@@ -91,3 +91,33 @@ body {
     cursor: pointer;
     transition: .5s;
 }
+
+.button-convertion:hover {
+    background: #6a449b;
+}
+
+.button-convertion:active {
+    opacity: .4;
+}
+
+/* SECAO RESULTADO CONVERSAO */
+
+.section-result-convertion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20.4375rem;
+    margin: 0 auto;
+    margin-bottom: 1.44rem;
+}
+
+.box-result-first-value, .box-result-second-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.94rem;
+}
+
+.image-arrow-down {
+    margin: 0.98rem 0;
+}
