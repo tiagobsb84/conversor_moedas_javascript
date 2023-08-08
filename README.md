@@ -14,3 +14,6 @@ O projeto consiste em um conversor de moedas.
 * CSS
 * JavaScript
 * Figma
+
+## Imagem do projeto
+<img src="./assets/img/imagem-readme-github.jpg">
